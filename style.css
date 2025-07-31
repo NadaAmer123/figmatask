@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #111;
+  background-color: #0a0a0a;
   color: white;
   overflow-x: hidden;
 }
@@ -792,4 +792,22 @@ nav {
         height: 150px;
     }
 }
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
 
+.fas, .fab {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.im{
+
+  height: 73px;
+  border-radius: 5px;
+
+
+}
